@@ -9,7 +9,7 @@ permissions:
 jobs:
   build_openwrt:
     name: Build OpenWrt Firmware
-    runs-on: macos
+    runs-on: macos-14
 
     steps:
       - name: Space cleanup and Initialization environment
